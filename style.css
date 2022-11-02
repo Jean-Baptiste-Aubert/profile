@@ -1,0 +1,106 @@
+.photo-profil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.jbeatles {
+  /* font-family: 'Caudex', serif;
+  font-weight: 900; */
+  width: 300px;
+  padding-top: 20px;
+}
+
+
+body {
+  background-image: url(/images/17149205.jpg);
+}
+
+div {
+  position: relative;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  width: 800px;
+  margin: 16px auto;
+  font-family: 'Caudex', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.biography {
+  text-align: justify;
+  padding: 10px;
+  width: 70%;
+}
+
+.logo-beatles {
+  width: 200px;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+.yellow-button {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background: rgb(218, 218, 211);
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  position: absolute;
+  top: 112px;
+  right: 240px
+;
+}
+
+.yellow-button:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 174, 2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  transition-duration: 0.8s;
+  top: 112px;
+  right: 240px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  margin: 0 auto;
+  display: inline;
+  font-size: 40px;
+  padding: 20px;
+}
+
+li:hover{
+  font-size: 40px;
+  padding: 20px;
+}
+
+li a {
+  color: rgb(218, 218, 211);
+}
+
+.fa-instagram:hover{
+  color: rgb(239, 76, 155);
+  transition-duration: 0.8s;
+}
+
+.fa-linkedin:hover{
+  color: rgb(22, 194, 242);
+  transition-duration: 0.8s;
+}
+
+.fa-music:hover{
+  color: rgb(166, 206, 55);
+  transition-duration: 0.8s;
+}
